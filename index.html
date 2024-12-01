@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="dropdown-container">
+      <div class="search-bar">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="search and select.."
+          autocomplete="off"
+        />
+        <button id="clear-all" class="clear-btn">Clear All</button>
+      </div>
+      <div id="selected-tags-container">
+        <div id="selected-tags" class="tags-container"></div>
+      </div>
+      <ul id="dropdown-list" class="dropdown-list"></ul>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
